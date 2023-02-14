@@ -1,0 +1,12 @@
+{
+  "eureka":
+    {
+      "client":
+        {
+          "shouldFetchRegistry": false,
+          "shouldRegisterWithEureka": true,
+          "serviceUrl": "http://host.docker.internal:8761/eureka/",
+        },
+    },
+    "drink": "Coffee",
+}
